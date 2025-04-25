@@ -16,7 +16,7 @@
 
 <body>
   <div class="container">
-    <div class="card p-2 mt-2">
+    <div class="card p-2 border-0 shadow mt-2">
       <h1 class="text-success h3 fw-bold mb-3">柑橘灌溉建議系統 <span class="h6 text-secondary">靜態v3.0</span></h1>
 
       <form id="irrigationForm">
@@ -54,12 +54,12 @@
         </div>
   
         <div class="form-group mb-3">
-          <label for="rainfall">日降雨量(mm):</label>
+          <label for="rainfall"><span style="font-size: 14px;">日降雨量(mm):</span></label>
           <input type="number" id="rainfall" required min="0" step="0.1" value="0">
         </div>
   
         <div class="form-group mb-3">
-          <label for="managementStyle">管理方式:</label>
+          <label for="managementStyle"><span style="font-size: 14px;">管理方式:</span></label>
           <select id="managementStyle" required>
             <option value="wet">濕潤(土壤水分張力40kPa)</option>
             <option value="normal" selected>一般(土壤水分張力60kPa)</option>
